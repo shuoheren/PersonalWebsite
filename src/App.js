@@ -6,6 +6,7 @@ import SkillsTechnologies from "./Body/SkillsTechnologies/SkillsTechnologies";
 import LeetCode from "./Body/LeetCode/LeetCode";
 import BookList from "./Body/BookList/BookList";
 import Learning from "./Body/Learning/Learning";
+import BeautifulSeattle from "./Body/BeautifulSeattle/BeautifulSeattle";
 import Footer from "./Footer/Footer";
 // Create Context
 export const AppContext = createContext();
@@ -24,6 +25,7 @@ function App() {
         {currentPage === "LeetCode" && <LeetCode />}
         {currentPage === "BookList" && <BookList />}
         {currentPage === "Learning" && <Learning />}
+        {currentPage === "BeautifulSeattle" && <BeautifulSeattle />}
         <Footer />
       </div>
     </AppContext.Provider>

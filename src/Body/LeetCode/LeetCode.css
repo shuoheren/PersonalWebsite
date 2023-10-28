@@ -1,0 +1,33 @@
+.leetcode-container {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.leetcode-container h3,
+.leetcode-container h4,
+.leetcode-container p {
+  max-width: 600px;
+  color: #333;
+  margin: auto;
+  display: center;
+  font: 30px;
+}
+
+.leetcode-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.my-story {
+  margin-top: 40px;
+}
+
+.story-section {
+  margin-bottom: 20px;
+}

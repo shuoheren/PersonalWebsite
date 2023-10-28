@@ -47,7 +47,7 @@ function Footer() {
           <img src={codeforcesIcon} alt="Codeforces" />
         </a>
       </div>
-      <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Shuohe Ren. All rights reserved.</p>
     </footer>
   );
 }

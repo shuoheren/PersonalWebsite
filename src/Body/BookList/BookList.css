@@ -4,6 +4,8 @@
   padding: 20px;
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+  max-width: 800px;
+  margin: auto;
 }
 
 .book-list h2 {

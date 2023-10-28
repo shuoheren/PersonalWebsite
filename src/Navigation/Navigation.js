@@ -25,6 +25,12 @@ function Navigation() {
       <a onClick={() => setCurrentPage("BookList")} href="#booklist">
         Book List
       </a>
+      <a
+        onClick={() => setCurrentPage("BeautifulSeattle")}
+        href="#lifeinseattle"
+      >
+        Life in Seattle
+      </a>
     </div>
   );
 }

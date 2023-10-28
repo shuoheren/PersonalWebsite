@@ -1,52 +1,46 @@
-/* AboutMe.css */
-
-.header-section {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  padding: 20px 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 800px; /* To ensure it doesn't span the full width on larger screens */
-  margin: 40px auto; /* Centering the container */
+.about-me-section {
+  font-size: 22px;
 }
 
-.header-section h1 {
-  color: #333;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: bold;
+.about-me-section h1 {
+  font-size: 2em;
 }
 
-.header-section p {
-  color: #555;
-  line-height: 1.6; /* Improves readability */
-  margin-bottom: 16px; /* Space between paragraphs */
-  text-align: justify; /* Justified text for better alignment */
+.about-me-section p {
+  margin-bottom: 1em;
+  max-width: 1000px; /* Set a maximum width */
+  text-align: left; /* Align text to the left */
+  margin-left: auto; /* These two lines center the paragraph block */
+  margin-right: auto; /* within the .about-me-section */
 }
 
-.links {
+.large-image {
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+.python-section,
+.jay-section {
   display: flex;
-  flex-wrap: wrap; /* Allows links to wrap to next line if they run out of space */
-  justify-content: center; /* Center align the links */
-  gap: 10px; /* Space between links */
+  align-items: center;
+  max-width: 1000px; /* Set a maximum width */
+  margin-left: auto; /* These two lines center the paragraph block */
+  margin-right: auto; /* within the .about-me-section */
 }
 
-.links a {
-  color: #007bff; /* Bootstrap primary color for links */
-  text-decoration: none;
-  padding: 10px 15px;
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid #007bff; /* Matching border to the link color */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+.python-image,
+.jay-image {
+  width: 200px;
 }
 
-.links a:hover {
-  background-color: #007bff; /* Background color on hover */
-  color: white; /* Text color on hover */
+.after-work-section {
+  margin-top: 20px;
 }
 
-/* If you want to add a transition effect when hovering over links */
-.links a {
-  transition: background-color 0.3s, color 0.3s;
+.profile-picture-me {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 20px;
 }

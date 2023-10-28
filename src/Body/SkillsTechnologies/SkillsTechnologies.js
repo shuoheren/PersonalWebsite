@@ -38,8 +38,42 @@ function SkillsTechnologies() {
           best practices is my passion.
         </p>
       </div>
+
+      <div className="projects-section">
+        <h2>Projects</h2>
+        <div className="project-item">
+          <h3>
+            <a
+              href="https://github.com/shuoheren/ResourceManagementProject"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resource Management Project
+            </a>
+          </h3>
+          <p>
+            A Java and React-based system for efficient resource tracking and
+            management, enhanced with AWS for scalability.
+          </p>
+        </div>
+
+        <div className="project-item">
+          <h3>
+            <a
+              href="https://github.com/shuoheren/London-Time"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              London Clock
+            </a>
+          </h3>
+          <p>
+            A digital clock interface merging modern web technologies with
+            classic design, inspired by London's Big Ben.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
-
 export default SkillsTechnologies;
