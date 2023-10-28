@@ -1,0 +1,22 @@
+.book-list {
+  font-family: Arial, sans-serif; /* Setting a default font */
+  background-color: #f9f9f9; /* A light gray background color */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+}
+
+.book-list h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.book-list li {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0; /* A subtle line between each book */
+}
+
+.book-list li:last-child {
+  border-bottom: none; /* Remove the border from the last item */
+}

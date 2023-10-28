@@ -1,0 +1,24 @@
+/* Navigation.css */
+.navigation {
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center items in the container */
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 10px 0; /* Padding at the top and bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navigation a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Dark grey text */
+  margin: 0 15px; /* Spacing between links */
+  padding: 5px 10px; /* Padding around link text */
+  font-size: 16px; /* Font size */
+  border-radius: 5px; /* Rounded corners for a softer look */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.navigation a:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: #fff; /* White text on hover */
+  text-decoration: none; /* Ensure underline doesn't reappear on hover */
+}

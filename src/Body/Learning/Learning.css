@@ -1,0 +1,50 @@
+/* Main container styling */
+.learning-resources {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px; /* Optional padding for better appearance */
+  background-color: #f9f9f9; /* Optional light gray background for better contrast */
+}
+
+/* Styling for individual learning components to ensure they take equal space */
+.learning-resources > div {
+  flex: 1;
+  max-width: calc(33.33% - 20px);
+  padding: 15px; /* Padding inside each learning component for spacing */
+  border: 1px solid #e0e0e0; /* Optional border for definition */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #ffffff; /* White background for each learning component */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a lifted appearance */
+}
+
+/* Styling for the main heading inside the learning-resources container */
+.learning-resources h1 {
+  width: 100%; /* This ensures the heading takes up the full width */
+  margin-bottom: 20px; /* Spacing after the heading */
+  font-size: 24px;
+  text-align: center;
+  color: #333333; /* Dark gray color for the text */
+}
+
+/* Styling for the introductory paragraph */
+.learning-resources p {
+  width: 100%; /* This ensures the paragraph takes up the full width */
+  margin-bottom: 20px; /* Spacing after the paragraph */
+  font-size: 18px;
+  text-align: center;
+  color: #666666; /* Lighter gray color for the text */
+}
+
+/* Responsive behavior: Stacking the learning components vertically on smaller screens */
+@media (max-width: 768px) {
+  .learning-resources {
+    flex-direction: column;
+  }
+
+  .learning-resources > div {
+    max-width: 100%;
+    margin-bottom: 15px; /* Space between stacked components */
+  }
+}

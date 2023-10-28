@@ -1,0 +1,52 @@
+/* AboutMe.css */
+
+.header-section {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* To ensure it doesn't span the full width on larger screens */
+  margin: 40px auto; /* Centering the container */
+}
+
+.header-section h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.header-section p {
+  color: #555;
+  line-height: 1.6; /* Improves readability */
+  margin-bottom: 16px; /* Space between paragraphs */
+  text-align: justify; /* Justified text for better alignment */
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap; /* Allows links to wrap to next line if they run out of space */
+  justify-content: center; /* Center align the links */
+  gap: 10px; /* Space between links */
+}
+
+.links a {
+  color: #007bff; /* Bootstrap primary color for links */
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #007bff; /* Matching border to the link color */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.links a:hover {
+  background-color: #007bff; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+
+/* If you want to add a transition effect when hovering over links */
+.links a {
+  transition: background-color 0.3s, color 0.3s;
+}

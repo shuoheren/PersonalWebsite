@@ -1,0 +1,32 @@
+.bio,
+.links {
+  margin: 20px 0;
+}
+
+.links a {
+  color: #61dafb;
+  margin: 0 10px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.links a:hover {
+  border-bottom: 2px solid #61dafb;
+}
+
+strong {
+  color: #61dafb;
+}
+
+.App {
+  /* or body or whichever is your main container */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* makes sure it's at least the height of the viewport */
+  text-align: center;
+}
+
+.main-content {
+  flex: 1; /* allows this content to grow and occupy any extra space */
+}
